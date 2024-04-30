@@ -1,3 +1,6 @@
+package Game;
+import Coin.*;
+import Card.*;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -9,7 +12,7 @@ public class Game{
     public Player player2;
     public Store store;
     public SlotMachine slotMachine;
-    public JLabel label[]=new JLabel[6];
+    public JLabel[] label=new JLabel[6];
     public Game game;
     public int i;
     public String coinNumber;

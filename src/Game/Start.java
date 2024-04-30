@@ -1,9 +1,12 @@
+package Game;
+import Card.*;
+import Coin.*;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 public class Start {
-    private JFrame Frame;
+    public JFrame Frame;
     public Start() {
         Frame = new JFrame();
         Frame.setTitle("Amusement Park");
@@ -36,12 +39,8 @@ public class Start {
         rotateCircle rotate=new rotateCircle();
         rotate.setBounds(625,250,300,300);
         rotate.setOpaque(false);
-        winrect w=new winrect();
-        w.setBounds(0,0,1600,900);
-        w.setOpaque(false);
         Frame.add(startButton);
         Frame.add(rotate);
-        Frame.add(w);
         Frame.setVisible(true);
     }
 

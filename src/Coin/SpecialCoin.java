@@ -1,3 +1,4 @@
+package Coin;
 public class SpecialCoin {
     private String color;
     public int count;

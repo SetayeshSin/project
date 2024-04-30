@@ -1,17 +1,20 @@
+package Coin;
+import Card.*;
+import Game.*;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 public class SlotMachine {
     public Coin[] slotMachineCoinList = new Coin[5];
-    private JFrame frame;
-    private JPanel panel;
-    private JPanel slotPanel;
-    private JLabel label;
-    private JButton button;
-    private Game game;
-    private Player player1;
-    private Player player2;
+    public JFrame frame;
+    public JPanel panel;
+    public JPanel slotPanel;
+    public JLabel label;
+    public JButton button;
+    public Game game;
+    public Player player1;
+    public Player player2;
     private Player player;
     public Store store;
     private int number;

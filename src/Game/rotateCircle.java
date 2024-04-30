@@ -1,3 +1,6 @@
+package Game;
+import Coin.*;
+import Card.*;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -9,7 +12,7 @@ public class rotateCircle extends JPanel implements ActionListener {
     private static final int diameter=300;
     private Image backgroundImage;
     public rotateCircle() {
-        ImageIcon backgroundIcon = new ImageIcon("C:\\Users\\sesin\\Desktop\\java\\midterm\\src\\pictures\\gm.jpg");
+        ImageIcon backgroundIcon = new ImageIcon("C:\\Users\\sesin\\Desktop\\java\\midterm\\src\\pictures\\fu.png");
         backgroundImage = backgroundIcon.getImage();
         Timer timer = new Timer(10, this);
         timer.start();
@@ -30,7 +33,7 @@ public class rotateCircle extends JPanel implements ActionListener {
             g2d.drawImage(backgroundImage,x,y,diameter,diameter,this);
             g2d.setClip(null);
             g2d.setTransform(old);
-            angle+=0.5;
+            angle+=0.3;
         }
 
     @Override

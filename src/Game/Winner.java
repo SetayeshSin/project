@@ -1,14 +1,17 @@
+package Game;
+import Coin.*;
+import Card.*;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 public class Winner {
-    public int win;
-    private Player player;
-    private Player player1;
-    private Player player2;
-    private JFrame winFrame;
-    private JPanel winPanel;
+    private int win;
+    public Player player;
+    public Player player1;
+    public Player player2;
+    public JFrame winFrame;
+    public JPanel winPanel;
     public Winner(Player player1,Player player2){
         this.player1=player1;
         this.player2=player2;
