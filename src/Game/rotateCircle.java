@@ -10,7 +10,7 @@ public class rotateCircle extends JPanel implements ActionListener {
     private static final int diameter=300;
     private Image backgroundImage;
     public rotateCircle() {
-        ImageIcon backgroundIcon = new ImageIcon("C:\\Users\\sesin\\Desktop\\java\\midterm\\src\\pictures\\fu.png");
+        ImageIcon backgroundIcon = new ImageIcon("C:\\Users\\sesin\\Desktop\\java\\midterm\\src\\pictures\\funfair.png");
         backgroundImage = backgroundIcon.getImage();
         Timer timer = new Timer(10, this);
         timer.start();
