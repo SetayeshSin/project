@@ -8,7 +8,6 @@ import java.awt.event.ActionListener;
 import java.util.Random;
 public class Store{
     public JFrame frame;
-    public JFrame questionFrame;
     public Card[] level1StoreCardList=new Card[15];
     public Card[] level2StoreCardList=new Card[15];
     public Card[] level3StoreCardList=new Card[15];

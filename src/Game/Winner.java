@@ -1,6 +1,4 @@
 package Game;
-import Coin.*;
-import Card.*;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;

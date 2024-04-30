@@ -1,10 +1,6 @@
 package Card;
 import Coin.*;
-import Game.*;
 import javax.swing.*;
-import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 public class PrizeClaw {
     public int score;
     public Icon icon;

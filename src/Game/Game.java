@@ -6,7 +6,6 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 public class Game{
-
     public JFrame frame;
     public Player player1;
     public Player player2;

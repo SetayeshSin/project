@@ -1,10 +1,6 @@
 package Game;
 import Card.*;
 import Coin.*;
-import javax.swing.*;
-import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 public class Player {
     public String name;
     public int score;
